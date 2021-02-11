@@ -1,0 +1,33 @@
+.more-screen .icon-row__icon i {
+  margin: 10px 35px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.more-suggestions__header {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.more-suggestions__icons {
+  display: flex;
+  justify-content: flex-start;
+}
+.more-suggestions__icon i {
+  font-size: 30px;
+  color: white;
+}
+.more-suggestions__img {
+  background-color: rgba(255, 230, 0, 0.918);
+  padding: 10px;
+  border-radius: 10px;
+}
+.more-suggestions__text {
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}

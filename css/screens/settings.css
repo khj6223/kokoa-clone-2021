@@ -1,0 +1,15 @@
+.setting__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.setting-items {
+  padding: 0px 20px;
+}
+.setting__item-colume:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+.setting__item-colume:first-child span {
+  margin-right: 10px;
+}

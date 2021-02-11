@@ -1,0 +1,6 @@
+.border {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.border-light {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

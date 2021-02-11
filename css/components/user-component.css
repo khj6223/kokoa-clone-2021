@@ -5,6 +5,13 @@
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
 .user-component,
 .user-component__column:first-child {
@@ -20,11 +27,15 @@
 .user-component__title {
   font-size: 22px;
   font-weight: 600;
+  margin-bottom: 12px;
 }
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__subtitle i {
+  color: tomato;
 }
 .user-component__avatar-sm {
   width: 60px;
@@ -38,4 +49,8 @@
 }
 .user-component__title--not-bold {
   font-weight: 400;
+}
+.user-component__phone-number {
+  display: flex;
+  margin-right: 10px;
 }
